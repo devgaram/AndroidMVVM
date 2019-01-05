@@ -26,7 +26,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteHolder> {
         Note currentNote = notes.get(i);
         noteHolder.textViewTitle.setText(currentNote.getTitle());
         noteHolder.textViewDescription.setText(currentNote.getDescription());
-        noteHolder.textViewPriority.setText(currentNote.getPriority());
+        noteHolder.textViewPriority.setText(String.valueOf(currentNote.getPriority()));
     }
 
     @Override
