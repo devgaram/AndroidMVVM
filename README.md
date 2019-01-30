@@ -20,10 +20,10 @@ Coding in Flow의  Room + ViewModel + LiveData + RecyclerView (MVVM) 튜토리�
 
 
 # MVVM - VIEW와 VIEWMODEL
-<span class="li-icon">MainActivity.class : 앱의 시작점으로 RecyclerView 설정 및 ViewModel 생성하는 부분 </span>
-<span class="li-icon">NoteViewModel.class : UI 컴포넌트와 UI 데이터의 분리</span>
-<span class="li-icon">NoteAdapter.class : 리사이클러뷰 어댑터</span>
-<span class="li-icon">NoteRepository.class : 저장소, 도메인과 모델 사이의 중간체 역할?</span>
+<span class="li-icon">MainActivity.class : 앱의 시작점으로 RecyclerView 설정 및 ViewModel 생성하는 부분 </span>    
+<span class="li-icon">NoteViewModel.class : UI 컴포넌트와 UI 데이터의 분리</span>    
+<span class="li-icon">NoteAdapter.class : 리사이클러뷰 어댑터</span>    
+<span class="li-icon">NoteRepository.class : 저장소, 도메인과 모델 사이의 중간체 역할?</span>     
 
 ## 1. 리사이클러뷰 구현
 ```java
